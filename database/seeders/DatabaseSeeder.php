@@ -16,10 +16,18 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        // User::factory()->create([
-        //     'name' => 'Ngoc Dung',
-        //     'email' => 'tes1t@example.com',
-        // ]);
+        User::factory()->create([
+            'name' => 'Ngoc Dung',
+            'email' => 'te12312t@example.com',
+        ]);
+        User::factory()->create([
+            'name' => 'Ngoc D1ng',
+            'email' => 'tesasdsadat@example.com',
+        ]);
+        User::factory()->create([
+            'name' => 'Ngoc Dun3g',
+            'email' => 'tes1t@example.com',
+        ]);
         Message::factory(5)->create([
             'user_id' => 1,
             'receiver_id' => 3,
